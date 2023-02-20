@@ -8,7 +8,7 @@ export default function Resume() {
 
       <h4>Proficiencies</h4>
 
-      <div class='container mt-1'>
+      <div className='container mt-1'>
         <ul>
           <li>HTML/CSS/Git</li>
           <li>javascript</li>
