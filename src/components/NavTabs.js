@@ -3,7 +3,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs" style={{backgroundColor: '#D2EEFF'}}>
-      <li className="nav-item">
+      <li className="nav-item nav-link" style={{fontWeight: 'bold'}}>
           Alex Cook
       </li>
       <li className="nav-item">

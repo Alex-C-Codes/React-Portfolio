@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
       <div class='content-wrap' className='m-5'>
         {renderPage()}
       </div>
-      <div class='footer' className='m-5'><Footer /></div>
+      <div className='m-5'><Footer /></div>
     </div>
   );
 }

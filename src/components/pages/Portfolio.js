@@ -1,12 +1,9 @@
 import React from 'react';
-// import Container from 'bootstrap-container/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
 import { Row } from 'react-bootstrap';
 
 export default function Portfolio() {
   return (
-    <div id="work" class="work">
+    <div id="work" class="work centered">
       <div class="myDiv">
         <h2>My Work</h2>
         <Row>
@@ -24,7 +21,7 @@ export default function Portfolio() {
                 </a>
             </div>
         </div>
-        <div class=" m-2 flex-container row">
+        <div class="m-2 flex-container row">
             <div class="column">
                 <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/Alex-Cook-Horiseon-Marketing/">
                     <img class="work-img" src={require('../../assets/images/module-1-screenshot.png')} alt="Horiseon Marketing" style={{width:"300px",height:"225px"}} />
