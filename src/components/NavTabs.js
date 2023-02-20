@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" style={{backgroundColor: '#D2EEFF'}}>
       <li className="nav-item">
           Alex Cook
       </li>

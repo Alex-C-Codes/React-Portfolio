@@ -1,24 +1,61 @@
 import React from 'react';
+// import Container from 'bootstrap-container/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+import { Row } from 'react-bootstrap';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div id="work" class="work">
+      <div class="myDiv">
+        <h2>My Work</h2>
+        <Row>
+        <div class="m-2 flex-container row">
+            <div class="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://dnd-combat-simulator.herokuapp.com">
+                    <img class="work-img" src={require('../../assets/images/dnd_characterCreation.png')} alt="Dnd-Combat-Simulator" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div>
+        <div class="m-2 flex-container row">
+            <div class="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://alexcook-notetaker.herokuapp.com">
+                    <img class="work-img" src={require('../../assets/images/noteTaker.png')} alt="Note Taker" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div>
+        <div class=" m-2 flex-container row">
+            <div class="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/Alex-Cook-Horiseon-Marketing/">
+                    <img class="work-img" src={require('../../assets/images/module-1-screenshot.png')} alt="Horiseon Marketing" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div>
+        </Row>
+        <Row>
+        <div class="m-2 flex-container row">
+            <div class="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/AlexCook-WeatherDashboard/">
+                    <img class="work-img" src={require('../../assets/images/weatherDashboard.png')} alt="Weather Dashboard" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div>
+        <div class="m-2 flex-container row">
+            <div class="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/AlexCook-WorkDayScheduler/">
+                    <img class="work-img" src={require('../../assets/images/workDayScheduler.png')} alt="Work Day Scheduler" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div>
+        <div class="m-2 flex-container row">
+            <div class="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/AlexCook-CodeQuiz/">
+                    <img class="work-img" src={require('../../assets/images/codingQuiz.png')} alt="Coding Quiz" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div>
+        </Row>
+      </div>
     </div>
   );
 }
