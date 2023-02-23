@@ -86,7 +86,7 @@ export default function Contact() {
 
   return (
     <div>
-      <div><h1>FormSubmit Demo</h1></div>
+      <div><h1>Contact Me</h1></div>
       <div>
         <form target="_blank" action="https://formsubmit.co/85b6f0b92dc158f646d3029977665364" method="POST">
           <div className="form-group">
