@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../assets/content/resume.pdf';
+import pdf from '../../../assets/content/resume.pdf';
 
 export default function Resume() {
   return (
@@ -35,6 +35,8 @@ export default function Resume() {
           <li>React</li>
           <li>NoSQL</li>
           <li>MERN Stack</li>
+        </ul>
+        <ul>
           <li>Computer science fundamentals</li>
         </ul>
       </div>
