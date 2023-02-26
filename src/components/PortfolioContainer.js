@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Writing') {
       return <Writing/>
     }
-    return <Contact />;
+    return <Contact />
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -40,6 +40,13 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       <div className='content-wrap m-5'>
         {renderPage()}
+
+        {/* <div id='#about'><About /></div>
+        <div id='#portfolio'><Portfolio /></div>
+        <div><Resume/></div>
+        <div><Music/></div>
+        <div><Writing/></div>
+        <div><Contact /></div> */}
       </div>
       <div className='m-5'><Footer /></div>
     </div>

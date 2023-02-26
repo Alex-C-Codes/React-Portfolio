@@ -8,7 +8,9 @@ export default function Music() {
                 <div className='row'>
                     <div className='col text-center'>
                         <h3>Video Game Compositions</h3>
-                        <iframe title="itch.io" frameborder="0" src="https://itch.io/embed/1577689" width="552" height="167"><a href="https://alexcook.itch.io/relaxing-pack">Relaxing &amp; Cozy Music Loop Pack by alexcook</a></iframe>
+                        <div className='d-flex justify-content-center'>
+                            <iframe title="itch.io" frameBorder="0" src="https://itch.io/embed/1577689" width="552" height="167"><a href="https://alexcook.itch.io/relaxing-pack">Relaxing &amp; Cozy Music Loop Pack by alexcook</a></iframe>
+                        </div>
                     </div>
                     {/* <div className='col text-center'>
                         <h3>Pop Music</h3>
