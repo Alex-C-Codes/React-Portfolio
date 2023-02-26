@@ -9,7 +9,7 @@ export default function Resume() {
 
       <h4>Proficiencies</h4><br></br>
 
-      <div className='container mt-1 d-flex justify-content-center' style={{fontSize:'2vmin',whiteSpace:'nowrap'}}>
+      <div className='container mt-1 d-flex justify-content-center' style={{fontSize:'2vmin'}}>
         <ul>
           <li>HTML/CSS/Git</li>
           <li>javascript</li>
