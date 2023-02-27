@@ -7,8 +7,23 @@ export default function Writing() {
             {/* <div>
                 <h3 className='text-center'>Blog</h3>
             </div> */}
+
+            <h3 className='text-center'>Standup Comedy</h3>
+        
+            <div style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+            }}>
+                <img src={require('../../../assets/images/laughingskull.png')} style={{
+                borderRadius:"50%",
+                width:"125px",
+                height:"125px",
+                }} alt="Profile" />
+            </div>
+            <br></br>
+
             <div>
-                <h3 className='text-center'>Original Jokes</h3>
                 <div className='d-flex justify-content-center' style={{fontSize:'2vmax'}}>
                     <ul>
                         <li>
