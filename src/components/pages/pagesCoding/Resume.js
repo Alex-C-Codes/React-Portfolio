@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../../assets/content/alexcook_resume.pdf';
+import pdf from '../../../assets/content/Alex Cook Resume_Final_CS.pdf';
 // this site has flexbox notes: https://mdbootstrap.com/docs/react/layout/flexbox/
 
 export default function Resume() {
