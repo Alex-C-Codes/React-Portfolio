@@ -28,6 +28,11 @@ export default function Writing() {
                     <ul>
                         <li>
                             <p>
+                                Some people are pro Capitalism. Others are anti-Capitalism. But it's odd to me that no-one's ever considered Lowercase-ism.<br></br>Written: 3/7/23
+                            </p>
+                        </li>
+                        <li>
+                            <p>
                                 I'm single right now. But someday I'd like to be multiple. Not quite there yet.<br></br>Written: 9/5/22
                             </p>
                         </li>
