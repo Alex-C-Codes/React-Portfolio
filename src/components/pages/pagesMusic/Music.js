@@ -15,6 +15,13 @@ export default function Music() {
                     {/* <div className='col text-center'>
                         <h3>Pop Music</h3>
                     </div> */}
+                    <div className='col text-center'>
+                        <br></br><br></br>
+                        <h3>Music Featured In:</h3>
+                        <div className='d-flex justify-content-center'>
+                            <iframe title='Adarin Farms' src="https://store.steampowered.com/widget/1827730/" frameborder="0" width="552" height="190"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
