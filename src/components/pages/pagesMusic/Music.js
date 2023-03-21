@@ -42,7 +42,9 @@ export default function Music() {
                         </div>
 
                         <h5>YouTube Content</h5>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6XkYSp6lDxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div className='d-flex justify-content-center'>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6XkYSp6lDxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
                         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/L3PFBNhiwoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/4HHcwiHgd40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                     </div>
