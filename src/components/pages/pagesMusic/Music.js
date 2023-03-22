@@ -37,11 +37,18 @@ export default function Music() {
                             }}
                         /> */}
 
+                        <br></br>
+                        <h5>Podcasts</h5>
+                        <iframe title='Culture Jumpers Podcast' allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style={{width:'100%',maxWidth:'552px',overflow:'hidden',background:'transparent'}} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                        src="https://embed.podcasts.apple.com/us/podcast/bipoc-gamers-animal-crossing-and-the-mellowverse/id1662703068?i=1000605315075"></iframe>
+
+                        <br></br><br></br>
                         <h5>Video Games</h5>
                         <div className='d-flex justify-content-center'>
                             <iframe title='Adarin Farms' src="https://store.steampowered.com/widget/1827730/" frameborder="0" width="552" height="190"></iframe>
                         </div>
 
+                        <br></br><br></br>
                         <h5>YouTube</h5>
                         <div className='d-flex justify-content-center'>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/6XkYSp6lDxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
