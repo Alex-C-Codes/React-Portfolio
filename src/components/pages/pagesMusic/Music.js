@@ -8,6 +8,8 @@ export default function Music() {
                 <div className='row'>
                     <div className='col text-center'>
                         <h3>Music Projects</h3>
+                        
+                        <br></br>
                         <h5>Audio Packs</h5>
                         <div className='d-flex justify-content-center'>
                             <iframe title="itch.io" frameborder="0" src="https://itch.io/embed/1577689" width="552" height="167"><a href="https://alexcook.itch.io/relaxing-pack">Relaxing &amp; Cozy Music Loop Pack by alexcook</a></iframe>
@@ -20,29 +22,12 @@ export default function Music() {
 
                         </div>
                     </div>
-                    {/* <div className='col text-center'>
-                        <h3>Pop Music</h3>
-                    </div> */}
                 </div>
-                {/* <hr
-                    style={{
-                    background: "#000000",
-                    height: "1px",
-                    border: "none",
-                    }}
-                /> */}
                 <br></br>
                 <div className='row'>
                     <div className='col text-center'>
                         <hr></hr><br></br>
                         <h3>Credits</h3>
-                        {/* <hr
-                            style={{
-                            background: "#000000",
-                            height: "1px",
-                            border: "none",
-                            }}
-                        /> */}
 
                         <br></br>
                         <h5>Podcasts</h5>
@@ -58,8 +43,7 @@ export default function Music() {
                         <div className='d-flex justify-content-center'>
                             <iframe title='YouTuber Remixes' width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLBCgntvfMeIo5q-PNDp-A5cD92dyd2h8O" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
-                        {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/L3PFBNhiwoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4HHcwiHgd40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
                     </div>
                 </div>
             </div>
