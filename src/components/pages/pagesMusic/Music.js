@@ -8,8 +8,9 @@ export default function Music() {
                 <div className='row'>
                     <div className='col text-center'>
                         <h3>Music Projects</h3>
+                        <h5>Audio Packs</h5>
                         <div className='d-flex justify-content-center'>
-                            <iframe title="itch.io" frameBorder="0" src="https://itch.io/embed/1577689" width="552" height="167"><a href="https://alexcook.itch.io/relaxing-pack">Relaxing &amp; Cozy Music Loop Pack by alexcook</a></iframe>
+                            <iframe title="itch.io" frameborder="0" src="https://itch.io/embed/1577689" width="552" height="167"><a href="https://alexcook.itch.io/relaxing-pack">Relaxing &amp; Cozy Music Loop Pack by alexcook</a></iframe>
                         </div>
                     </div>
                     {/* <div className='col text-center'>
@@ -41,9 +42,9 @@ export default function Music() {
                             <iframe title='Adarin Farms' src="https://store.steampowered.com/widget/1827730/" frameborder="0" width="552" height="190"></iframe>
                         </div>
 
-                        <h5>YouTube Content</h5>
+                        <h5>YouTube</h5>
                         <div className='d-flex justify-content-center'>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6XkYSp6lDxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6XkYSp6lDxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/L3PFBNhiwoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/4HHcwiHgd40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}

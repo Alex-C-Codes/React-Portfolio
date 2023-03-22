@@ -1,6 +1,9 @@
 import React from 'react';
 import pdf from '../../../assets/content/Alex Cook Resume_Final_CS.pdf';
 // this site has flexbox notes: https://mdbootstrap.com/docs/react/layout/flexbox/
+// import { Carousel } from 'react-bootstrap';
+// import ListGroup from 'react-bootstrap/ListGroup'
+// import { ListGroup } from 'react-bootstrap';
 
 export default function Resume() {
   return (
@@ -91,6 +94,15 @@ export default function Resume() {
         </div> */}
 
       </div>
+
+      {/* <ListGroup>
+        <ListGroup.Item>Cras justo odio</ListGroup.Item>
+        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+        <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+      </ListGroup> */}
+
       <br></br>
 
       <a target="_blank" rel="noopener noreferrer" href={pdf}>Click to Download Resume</a>
