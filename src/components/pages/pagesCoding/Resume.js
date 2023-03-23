@@ -13,7 +13,7 @@ export default function Resume() {
       <h4>Proficiencies</h4><br></br>
 
       <div className='container mt-1 d-flex justify-content-center' style={{fontSize:'2vmin'}}>
-        <ul>
+        {/* <ul>
           <li>HTML/CSS/Git</li>
           <li>javascript</li>
           <li>Bootstrap</li>
@@ -44,9 +44,9 @@ export default function Resume() {
         <ul>
           <li>MERN Stack</li>
           <li>Computer science fundamentals</li>
-        </ul>
+        </ul> */}
 
-        {/* <div className='row'>
+        <div className='row'>
           <div className='col'>
             <ul>
               <li>HTML/CSS/Git</li>
@@ -91,7 +91,7 @@ export default function Resume() {
               <li>Computer science fundamentals</li>
             </ul>
           </div>
-        </div> */}
+        </div>
 
       </div>
 

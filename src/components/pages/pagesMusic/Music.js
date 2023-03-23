@@ -8,7 +8,7 @@ export default function Music() {
                 <div className='row'>
                     <div className='col text-center'>
                         <h3>Music Projects</h3>
-                        
+
                         <br></br>
                         <h5>Audio Packs</h5>
                         <div className='d-flex justify-content-center'>
@@ -16,7 +16,7 @@ export default function Music() {
                         </div>
 
                         <br></br>
-                        <h5>YouTuber Remixes</h5>
+                        <h5>Albums</h5>
                         <div className='d-flex justify-content-center'>
                             <iframe title='YouTube' allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style={{width:'100%',maxWidth:'552px',overflow:'hidden',background:'transparent'}} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/ogma-squad-remixes-single/1480953356"></iframe>
 

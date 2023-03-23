@@ -4,8 +4,20 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <>
     <ul className='nav nav-tabs' style={{backgroundColor:'#D2EEFF'}}>
+      <li style={{}}>
+        <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
+          }}>
+            <img src={require('../assets/images/logo.png')} style={{
+                width:"40px",
+                height:"40px",
+              }} alt="Profile" />
+        </div>
+      </li>
       <li className="nav-item nav-link" style={{fontWeight: 'bold'}}>
-          Alex Cook
+        Alex Cook
       </li>
       <li className="nav-item">
         <a
