@@ -71,6 +71,9 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-center'>
                     <iframe title='floppy bird' frameborder="0" src="https://itch.io/embed/2124293" width="552" height="167"><a href="https://alexcook.itch.io/floppy-bird">Floppy Bird by Alex Cook</a></iframe>
                 </div>
+                <div className='d-flex justify-content-center'>
+                    <iframe title='top down game' frameborder="0" src="https://itch.io/embed/2127505" width="552" height="167"><a href="https://alexcook.itch.io/top-down-game">Slime Runner - Top Down Game by Alex Cook</a></iframe>
+                </div>
             </div>
         </div>
         </Row>
