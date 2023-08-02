@@ -66,8 +66,8 @@ export default function Portfolio() {
 
         <Row>
         <div className="m-2 flex-container row">
-            <div className="column text-center">
-                <h3>Games</h3>
+            <div className="column">
+                <h3>My Games</h3>
                 <div className='d-flex justify-content-center'>
                     <iframe title='floppy bird' frameborder="0" src="https://itch.io/embed/2124293" width="552" height="167"><a href="https://alexcook.itch.io/floppy-bird">Floppy Bird by Alex Cook</a></iframe>
                 </div>
