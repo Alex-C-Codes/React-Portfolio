@@ -23,7 +23,7 @@ export default function Portfolio() {
         </div> */}
         <div className="m-2 flex-container row">
             <div className="column">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.testingmywebspace.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/leashmeout/">
                     <img className="work-img" src={require('../../../assets/images/leashmeout.png')} alt="leach-me-out" style={{width:"300px",height:"225px"}} />
                 </a>
             </div>
