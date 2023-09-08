@@ -10,14 +10,21 @@ export default function Portfolio() {
         <div className="m-2 flex-container row">
             <div className="column">
                 <a target="_blank" rel="noopener noreferrer" href="https://flea-market-finds.herokuapp.com/">
-                    <img className="work-img" src={require('../../../assets/images/flea-market-finds.png')} alt="Dnd-Combat-Simulator" style={{width:"300px",height:"225px"}} />
+                    <img className="work-img" src={require('../../../assets/images/flea-market-finds.png')} alt="flea-market-finds" style={{width:"300px",height:"225px"}} />
                 </a>
             </div>
         </div>
-        <div className="m-2 flex-container row">
+        {/* <div className="m-2 flex-container row">
             <div className="column">
                 <a target="_blank" rel="noopener noreferrer" href="https://dnd-combat-simulator.herokuapp.com">
                     <img className="work-img" src={require('../../../assets/images/dnd_characterCreation.png')} alt="Dnd-Combat-Simulator" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div> */}
+        <div className="m-2 flex-container row">
+            <div className="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.testingmywebspace.com/">
+                    <img className="work-img" src={require('../../../assets/images/leashmeout.png')} alt="leach-me-out" style={{width:"300px",height:"225px"}} />
                 </a>
             </div>
         </div>
@@ -71,9 +78,9 @@ export default function Portfolio() {
                 <div className='d-flex justify-content-center'>
                     <iframe title='floppy bird' frameborder="0" src="https://itch.io/embed/2124293" width="552" height="167"><a href="https://alexcook.itch.io/floppy-bird">Floppy Bird by Alex Cook</a></iframe>
                 </div>
-                <div className='d-flex justify-content-center'>
+                {/* <div className='d-flex justify-content-center'>
                     <iframe title='top down game' frameborder="0" src="https://itch.io/embed/2127505" width="552" height="167"><a href="https://alexcook.itch.io/top-down-game">Slime Runner - Top Down Game by Alex Cook</a></iframe>
-                </div>
+                </div> */}
             </div>
         </div>
         </Row>
