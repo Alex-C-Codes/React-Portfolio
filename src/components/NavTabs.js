@@ -73,7 +73,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Writing
         </a>
       </li> */}
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}
@@ -81,7 +81,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Projects
         </a>
-      </li>
+      </li> */}
     </ul>
     </>
   );

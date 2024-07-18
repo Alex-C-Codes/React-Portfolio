@@ -71,19 +71,19 @@ export default function Portfolio() {
 
         <br></br>
 
-        <Row>
+        {/* <Row>
         <div className="m-2 flex-container row">
             <div className="column">
                 <h3>My Games</h3>
                 <div className='d-flex justify-content-center'>
                     <iframe title='floppy bird' frameborder="0" src="https://itch.io/embed/2124293" width="552" height="167"><a href="https://alexcook.itch.io/floppy-bird">Floppy Bird by Alex Cook</a></iframe>
                 </div>
-                {/* <div className='d-flex justify-content-center'>
+                <div className='d-flex justify-content-center'>
                     <iframe title='top down game' frameborder="0" src="https://itch.io/embed/2127505" width="552" height="167"><a href="https://alexcook.itch.io/top-down-game">Slime Runner - Top Down Game by Alex Cook</a></iframe>
-                </div> */}
+                </div>
             </div>
         </div>
-        </Row>
+        </Row> */}
 
       </div>
     </div>
