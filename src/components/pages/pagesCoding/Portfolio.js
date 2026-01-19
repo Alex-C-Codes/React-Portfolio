@@ -6,14 +6,14 @@ export default function Portfolio() {
     <div className="work centered">
       <div className="myDiv">
         <h2>My Work</h2>
-        <Row>
-        <div className="m-2 flex-container row">
+        <Row className="justify-content-center">
+        {/* <div className="m-2 flex-container row">
             <div className="column">
                 <a target="_blank" rel="noopener noreferrer" href="https://flea-market-finds.herokuapp.com/">
                     <img className="work-img" src={require('../../../assets/images/flea-market-finds.png')} alt="flea-market-finds" style={{width:"300px",height:"225px"}} />
                 </a>
             </div>
-        </div>
+        </div> */}
         {/* <div className="m-2 flex-container row">
             <div className="column">
                 <a target="_blank" rel="noopener noreferrer" href="https://dnd-combat-simulator.herokuapp.com">
@@ -35,6 +35,13 @@ export default function Portfolio() {
                 </a>
             </div>
         </div>
+        <div className="m-2 flex-container row">
+            <div className="column">
+                <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/AlexCook-WeatherDashboard/">
+                    <img className="work-img" src={require('../../../assets/images/weatherDashboard.png')} alt="Weather Dashboard" style={{width:"300px",height:"225px"}} />
+                </a>
+            </div>
+        </div>
         {/* <div className="m-2 flex-container row">
             <div className="column">
                 <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/Alex-Cook-Horiseon-Marketing/">
@@ -43,14 +50,7 @@ export default function Portfolio() {
             </div>
         </div> */}
         </Row>
-        <Row>
-        <div className="m-2 flex-container row">
-            <div className="column">
-                <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/AlexCook-WeatherDashboard/">
-                    <img className="work-img" src={require('../../../assets/images/weatherDashboard.png')} alt="Weather Dashboard" style={{width:"300px",height:"225px"}} />
-                </a>
-            </div>
-        </div>
+        <Row className="justify-content-center">
         <div className="m-2 flex-container row">
             <div className="column">
                 <a target="_blank" rel="noopener noreferrer" href="https://alex-c-codes.github.io/AlexCook-WorkDayScheduler/">
